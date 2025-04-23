@@ -2,11 +2,11 @@
 
 This GitHub repository contains multiple graphics and findings that I was able to get from the “Parking Meters Pittsburgh Parking Authority” dataset done by Western Pennsylvania Regional Data Center about the parking in and outside of the Pittsurgh area, aimed at helping people who go to school and work around the Pittsburgh area make educated decisions about their parking.
 
-Importance
+# Importance
 As a college student that commutes in Pittsburgh, parking is a very important topic to learn more about. Especially since over the years I have been in college, it has continued to change. This is what drew me to look into data surrounding parking in the Pittsburgh area and allowed me to look at the parking around me in a new way. Each of my visualizations was chosen to highlight a new way to look at the parking in the area, and to help break down the over 1,000 unique parking areas found around Pittsburgh. While both the bubble map and the heat map help to visualize the data in ways easy to understand, the charts about the distribution of the cost and the areas with the highest number of parking locations allows us to see the distributions in the data and further find out more information about the dataset. These visualizations of the dataset were aimed at finding more information about the parking in Pittsburgh and allows other students or those who work in these areas, to help make more informed decisions about parking or driving in general.
 
-Data and Method
+# Data and Method
 The dataset used for these visualizations was the “Parking Meters Pittsburgh Parking Authority” csv file from the Western Pennsylvania Regional Data Center, which contained over 1,000 unique places to park around the city of Pittsburgh. All visualizations were made using Pandas in Python, Folium for the interactive maps, Geopandas for the geospatial data (in the form of x and y coordinates in the dataset), and Matplotlib and Seaborn for the other graphs. From the dataset, filtering and cleaning the rates column was needed for both the bubble and heat map, as well as the distribution of parking rates. And individually adding all of the bubbles to the map by iterating through the dataset for the first visualization was needed, as well as finding the weights of the parking in areas for the heat map. More information about the methods and the dataset are able to be found in the links to both github and the csv dataset file below.
 
-Dataset Link
+# Dataset Link
 https://data.wprdc.org/dataset/parking-meters-pittsburgh-parking-authority/resource/72fff5c4-5ef2-4437-9e40-e2d999d455ed
